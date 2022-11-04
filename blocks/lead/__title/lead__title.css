@@ -9,7 +9,17 @@
   padding: 0;
   max-width: 720px;
   max-height: 200px;
-  outline: 1px solid #FFF;
+}
+
+
+@media screen and ( max-width: 720px) {
+  .lead__title {
+    font-size: 68px;
+    line-height: 72px;
+    max-width: 504px;
+    max-height: 144px;
+
+  }
 }
 
 @media screen and ( max-width: 568px) {

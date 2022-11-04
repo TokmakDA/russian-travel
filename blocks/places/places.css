@@ -1,8 +1,30 @@
 .places {
-  max-width: calc(100% - 2*148px);
   display: grid;
   gap: 80px;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1124px) {
+  .places {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places {
+    padding: 0 24px;
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    padding: 0px;
+    gap: 50px;
+  }
 }

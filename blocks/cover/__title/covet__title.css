@@ -1,12 +1,21 @@
 .covet__title {
   max-width: 560px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   z-index: 1;
-  margin: 16px 0;
+  margin: 0 0 16px;
+}
+
+@media screen and (max-width: 568px) {
+  .covet__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    margin: 0 0 8px;
+  }
 }

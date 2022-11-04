@@ -7,7 +7,6 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  outline: 1px solid rgb(161, 127, 64);
 }
 
 @media screen and ( max-width: 568px) {

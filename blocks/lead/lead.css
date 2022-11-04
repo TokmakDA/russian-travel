@@ -5,3 +5,10 @@
   margin: 0 auto;
   padding: 0;
 }
+
+@media screen and ( max-width: 984px) {
+  .lead {
+    min-width: 100vw;
+    min-height: 62.5vw;
+  }
+}

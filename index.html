@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Document</title>
   </head>
   <body class="page">
     <!--Header-->
     <header class="header">
-      <img class="header__logo" src="./images/header-logo.svg" alt="логотип" />
+      <img
+        class="header__logo"
+        src="./images/header-logo.svg"
+        alt="логотип"
+      >
       <ul class="header__lang-links">
         <li>
-          <a class="header__lang-link header__lang-link_active" href="#">
-            Ru
-          </a>
+          <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
         </li>
         <li>
-          <a class="header__lang-link" href="#">
-            En
-          </a>
+          <a class="header__lang-link" href="#">En</a>
         </li>
       </ul>
     </header>
@@ -28,18 +27,22 @@
     <!--Content-->
     <main class="content page__content">
       <!--Lead-->
-      <section class="lead">
-        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+      <section class="lead content__section">
+        <h1 class="lead__title">
+          Путешествия по&nbsp;России
+        </h1>
         <h2 class="lead__subtitle">
           Настоящая&nbsp;страна&nbsp;не&nbsp;в&nbsp;выпусках
           новостей,&nbsp;а&nbsp;здесь.
         </h2>
         <div class="lead__image"></div>
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <p class="lead__caption">
+          ваша полка — верхняя
+        </p>
       </section>
 
       <!--Intro-->
-      <section class="intro">
+      <section class="intro content__section">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -62,95 +65,97 @@
       </section>
 
       <!--Photo-grid-->
-      <section class="photo-grid">
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-train.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-atharva-tulsi.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-tuman.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-sochi.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-arisa.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-baikal.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-elbrus.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-kondratiev.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-kamchatka-1.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-kamchatka-2.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-baikal-2.jpg"
-            alt=""
-          />
-        </figure>
-        <figure class="photo-grid__item">
-          <img
-            class="photo-grid__image"
-            src="./images/photo-grid-ergaki.jpg"
-            alt=""
-          />
-        </figure>
+      <section class="content__section">
+        <div class="photo-grid ">
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-train.jpg"
+              alt="Фото из окна поезда"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-atharva-tulsi.jpg"
+              alt="заснеженные вершины гор вид сверху"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-tuman.jpg"
+              alt="Туман на поле"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-sochi.jpg"
+              alt="Деревья в горах в сочи"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-arisa.jpg"
+              alt="Колесо УАЗа на льду"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-baikal.jpg"
+              alt="Песчаный берег байкала"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-elbrus.jpg"
+              alt="Эльбрус"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-kondratiev.jpg"
+              alt="Тетраподы на фоне знака пешеходного перехода"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-kamchatka-1.jpg"
+              alt="Камчатка горы"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-kamchatka-2.jpg"
+              alt="Вулкан Ходутка Камчатка"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-baikal-2.jpg"
+              alt="Зимний байкал, вид со скалой"
+            >
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              class="photo-grid__image"
+              src="./images/photo-grid-ergaki.jpg"
+              alt="Ергаки, туман и горы"
+            >
+          </figure>
+        </div>
       </section>
 
       <!--Places-->
-      <section class="">
+      <section class="content__section">
         <ul class="places">
           <li class="place">
             <h3 class="place__title">Куршская коса</h3>
@@ -160,7 +165,11 @@
                 park-kosa.ru
               </a>
             </div>
-            <img class="place__image" src="./images/place-kosa.jpg" alt="" />
+            <img
+              class="place__image"
+              src="./images/place-kosa.jpg"
+              alt="корни деревьев в морской воде"
+            >
             <div class="place__paragraph">
               <p class="place__paragraph-text">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
@@ -190,7 +199,11 @@
                 National Geographic
               </a>
             </div>
-            <img class="place__image" src="./images/place-kolsky.jpg" alt="" />
+            <img
+              class="place__image"
+              src="./images/place-kolsky.jpg"
+              alt="Заснеженная скалистая гора"
+            >
             <div class="place__paragraph">
               <p class="place__paragraph-text">
                 Почти весь полуостров находится за Полярным кругом. Саамская
@@ -220,7 +233,11 @@
                 Facebook
               </a>
             </div>
-            <img class="place__image" src="./images/place-altai.jpg" alt="" />
+            <img
+              class="place__image"
+              src="./images/place-altai.jpg"
+              alt="ноутбук на фоне алтайского леса"
+            >
             <div class="place__paragraph">
               <p class="place__paragraph-text">
                 Алтай — одно из красивейших мест в России. В первую очередь
@@ -253,8 +270,8 @@
             <img
               class="place__image"
               src="./images/place-winter-baikal.jpg"
-              alt=""
-            />
+              alt="Трещины в льдине"
+            >
             <div class="place__paragraph">
               <p class="place__paragraph-text">
                 Всем известен Байкал как крупнейшее озеро в мире. Многие также
@@ -279,7 +296,11 @@
                 http://vodlozero.ru/
               </a>
             </div>
-            <img class="place__image" src="./images/place-karelia.jpg" alt="" />
+            <img
+              class="place__image"
+              src="./images/place-karelia.jpg"
+              alt="Река в Карелии"
+              >
             <div class="place__paragraph">
               <p class="place__paragraph-text">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -299,7 +320,11 @@
 
       <!--Cover-->
       <section class="cover">
-        <a class="cover__item" href="#" target="_blank">
+        <a
+          class="cover__item"
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
+        >
           <h2 class="covet__title">
             До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
           </h2>
@@ -363,7 +388,9 @@
           </li>
         </ul>
       </nav>
-      <p class="footer__copyright">&copy; 2022. Токмак Дмитрий Андреевич</p>
+      <p class="footer__copyright">
+        &copy; 2022. Токмак Дмитрий
+      </p>
     </footer>
   </body>
 </html>
