@@ -1,0 +1,10 @@
+.place {
+  display: grid;
+  grid-template-columns: fit-content(460px) fit-content(484px);
+  grid-auto-rows: min-content min-content;
+  row-gap: 48px;
+  column-gap: 40px;
+  list-style-type: none;
+  grid-auto-flow: row;
+
+}

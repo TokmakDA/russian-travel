@@ -1,12 +1,10 @@
 .header__logo {
   max-width: 176px;
   max-height: 52px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  outline: 1px solid rgb(128, 0, 126);
 }
 
-@media screen and ( max-width: 560px) {
+@media screen and ( max-width: 568px) {
   .header__logo {
     max-width: 142px;
     max-height: 42px;

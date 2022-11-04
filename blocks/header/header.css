@@ -1,22 +1,21 @@
 .header {
   font-family: 'Inter', Arial, sans-serif;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
-  margin: 28px 48px;
-
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 48px;
+  outline: 1px solid green;
 }
 
 
-@media screen and ( max-width: 928px) {
+@media screen and ( max-width: 984px) {
   .header {
-    margin: 28px 24px;
+    margin: 0 24px 0;
   }
 }
 
-@media screen and ( max-width: 560px) {
+@media screen and ( max-width: 568px) {
   .header {
-    margin: 16px 16px 28px;
+    margin: 0 16px 0;
   }
 }

@@ -5,14 +5,14 @@
   line-height: 28px;
   color: #FFF;
   padding: 0;
-  margin: 18px 0 6px 18px;
+  margin: 0;
   text-decoration: none;
+  outline: 1px solid rgb(161, 127, 64);
 }
 
-@media screen and ( max-width: 560px) {
+@media screen and ( max-width: 568px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-    margin: 14px 0 8px 18px;
   }
 }
