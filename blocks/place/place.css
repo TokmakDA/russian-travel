@@ -1,5 +1,4 @@
 .place {
-  font-family: 'Inter', Arial, sans-serif;
   display: grid;
   grid-template-columns: fit-content(460px) fit-content(484px);
   row-gap: 48px;
