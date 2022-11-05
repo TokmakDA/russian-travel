@@ -40,6 +40,7 @@
 
 @media screen and (max-width: 1124px) {
   .cover__item {
+    max-width: 100%;
     min-height: calc(62.5vw);
   }
 }
