@@ -4,30 +4,26 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   margin: 32px auto;
   padding: 0;
   max-width: 640px;
 }
 
-
-@media screen and ( max-width: 720px) {
+@media screen and (max-width: 720px) {
   .lead__subtitle {
     font-size: 23px;
     line-height: 28px;
     max-width: 464px;
     margin-top: 16px;
-    margin-bottom: 16px ;
+    margin-bottom: 16px;
   }
 }
 
-
-
-@media screen and ( max-width: 568px) {
+@media screen and (max-width: 568px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
     max-width: 288px;
   }
 }
-

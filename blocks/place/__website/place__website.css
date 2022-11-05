@@ -5,8 +5,7 @@
   align-items: baseline;
 }
 
-
-@media screen and ( max-width: 568px) {
+@media screen and (max-width: 568px) {
   .place__website {
     margin: 0 16px;
   }

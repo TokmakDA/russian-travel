@@ -6,15 +6,14 @@
   object-fit: cover;
 }
 
-
-@media screen and ( max-width: 1124px) {
+@media screen and (max-width: 1124px) {
   .lead__image {
     max-width: 928px;
     margin-top: 24px;
   }
 }
 
-@media screen and ( max-width: 984px) {
+@media screen and (max-width: 984px) {
   .lead__image {
     max-width: 100%;
   }

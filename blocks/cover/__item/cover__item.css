@@ -23,18 +23,18 @@
   height: 100%;
   content: '';
   background: #2A2C2F;
-  opacity: .3;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  transition: .5s;
+  transition: 0.5s;
   z-index: -1;
 }
 
 .cover__item:hover::before {
-  opacity: .8;
+  opacity: 0.8;
 
 }
 

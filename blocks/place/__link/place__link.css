@@ -5,12 +5,11 @@
   line-height: 22px;
   text-decoration-line: underline;
   text-underline-offset: 4px;
-  color: #FFF;
+  color: #fff;
   margin: 12px 0 0;
-  transition: .5s;
-
+  transition: 0.5s;
 }
 
 .place__link:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
